@@ -8,6 +8,10 @@
     "dependencies": {
         "@actions/core": "^1.10.0",
         "@actions/github": "^5.1.1",
+        "@alicloud/credentials": "^2.3.0",
+        "@alicloud/cs20180418": "^1.0.0",
+        "@alicloud/openapi-client": "^0.4.6",
+        "@aws-sdk/client-eks": "^3.413.0",
         "@octokit/rest": "^19.0.5"
     },
     "devDependencies": {

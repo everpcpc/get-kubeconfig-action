@@ -5,7 +5,13 @@ author: everpcpc
 inputs:
   provider:
     description: Cloud Provider
-    required: false
+    required: true
+  cluster-name:
+    description: Cluster Name
+    required: true
+  kubeconfig:
+    description: File path to store kubeconfig
+    required: true
 
 runs:
   using: node16
