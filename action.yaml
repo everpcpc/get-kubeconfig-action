@@ -1,0 +1,16 @@
+name: Get Kubeconfig for Cloud Kubernetes Cluster
+description: Get Kubeconfig for Cloud Kubernetes Cluster
+author: everpcpc
+
+inputs:
+  provider:
+    description: Cloud Provider
+    required: false
+
+runs:
+  using: node16
+  main: dist/index.js
+
+branding:
+  icon: message-circle
+  color: green
